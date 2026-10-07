@@ -23,8 +23,7 @@ nav_order: 10
 ## Competitions we are targeting
 
 <div class="comp-card">
-  <!-- To use the official logo, replace the <i> and <span> below with <img src="/assets/img/competitions/suas.png" alt="SUAS logo"> -->
-  <div class="comp-logo"><i class="fa-solid fa-plane" aria-hidden="true"></i><span>SUAS</span></div>
+  <div class="comp-logo"><img src="{{ '/assets/img/competitions/suas.png' | relative_url }}" alt="SUAS Competition logo"></div>
   <div class="comp-body">
   <h3><a href="https://suas-competition.org/" target="_blank" rel="noopener">SUAS: Student Unmanned Aerial Systems Competition</a></h3>
   <p class="comp-meta">Hosted by RoboNation · held every year</p>
@@ -38,8 +37,7 @@ nav_order: 10
 </div>
 
 <div class="comp-card">
-  <!-- To use the official logo, replace the <i> and <span> below with <img src="/assets/img/competitions/iarc.png" alt="IARC logo"> -->
-  <div class="comp-logo"><i class="fa-solid fa-robot" aria-hidden="true"></i><span>IARC</span></div>
+  <div class="comp-logo"><img src="{{ '/assets/img/competitions/iarc.png' | relative_url }}" alt="IARC logo"></div>
   <div class="comp-body">
   <h3>
     <a href="http://www.aerialroboticscompetition.org/" target="_blank" rel="noopener">IARC: International Aerial Robotics Competition</a>
@@ -54,8 +52,7 @@ nav_order: 10
 </div>
 
 <div class="comp-card">
-  <!-- To use the official logo, replace the <i> and <span> below with <img src="/assets/img/competitions/aigp.png" alt="AIGP logo"> -->
-  <div class="comp-logo"><i class="fa-solid fa-flag-checkered" aria-hidden="true"></i><span>AIGP</span></div>
+  <div class="comp-logo"><img src="{{ '/assets/img/competitions/aigp.png' | relative_url }}" alt="AI Grand Prix logo"></div>
   <div class="comp-body">
   <h3><a href="https://theaigrandprix.com" target="_blank" rel="noopener">AI Grand Prix</a></h3>
   <p class="comp-meta">Launched by Anduril in 2026 · fully autonomous drone racing</p>
@@ -129,6 +126,10 @@ nav_order: 10
     max-width: 100%;
     max-height: 100%;
     object-fit: contain;
+  }
+  .comp-logo:has(img) {
+    background-color: #fff;
+    padding: 0.5rem;
   }
   .comp-body {
     flex: 1;
