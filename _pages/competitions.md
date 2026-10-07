@@ -1,14 +1,14 @@
 ---
 layout: page
 permalink: /competitions/
-title: competitions
-description: student teams for uncrewed aircraft systems (UAS) competitions
+title: Competitions
+description: Student teams for uncrewed aircraft systems (UAS) competitions
 nav: true
 nav_order: 10
 ---
 
 <div class="join-box">
-  <h2><i class="fa-solid fa-user-plus" aria-hidden="true"></i> Join our competition teams</h2>
+  <h2><i class="fa-solid fa-user-plus" aria-hidden="true"></i> Join Our Competition Teams</h2>
   <p>
     The PENGUIN Lab is recruiting students to form teams for uncrewed aircraft systems (UAS) competitions. Both undergraduate and graduate students
     are welcome. Team members work on autonomy software, flight control, computer vision, and building and testing aircraft.
@@ -20,7 +20,7 @@ nav_order: 10
   </ul>
 </div>
 
-## Competitions we are targeting
+## Competitions We Are Targeting
 
 <div class="comp-card">
   <div class="comp-logo"><img src="{{ '/assets/img/competitions/suas.png' | relative_url }}" alt="SUAS Competition logo"></div>

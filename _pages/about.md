@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: Perception, Engineering & Navigation for Ground-UAV Intelligent Networks
 
@@ -32,7 +32,7 @@ ground robots can sense, plan, and build together. Our current focus is **aerial
   </figure>
 </div>
 
-## Research directions
+## Research Directions
 
 <div class="icon-cards">
   <div class="icon-card">
