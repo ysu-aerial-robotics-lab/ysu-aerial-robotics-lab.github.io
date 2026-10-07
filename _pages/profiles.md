@@ -89,7 +89,11 @@ nav_order: 7
     display: flex;
     gap: 1.5rem;
     align-items: flex-start;
-    margin: 1.5rem 0 2rem;
+    margin: 1rem 0;
+    padding: 1.25rem;
+    border: 1px solid var(--global-divider-color);
+    border-radius: 8px;
+    background-color: var(--global-card-bg-color);
   }
   .person img {
     width: 150px;
