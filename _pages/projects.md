@@ -3,7 +3,8 @@ layout: page
 title: Projects
 permalink: /projects/
 description: Current and upcoming research projects
-nav: true
+nav: false
+sitemap: false
 nav_order: 8
 ---
 
