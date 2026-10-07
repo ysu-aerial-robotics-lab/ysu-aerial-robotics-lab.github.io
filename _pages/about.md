@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: Perception, Engineering & Navigation for Ground-UAV Intelligent Networks
 
 profile:
   align: right
