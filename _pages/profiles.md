@@ -79,7 +79,7 @@ nav_order: 7
   <img src="{{ '/assets/img/people/placeholder.svg' | relative_url }}" alt="Sumaia Islam" class="z-depth-1 rounded">
   <div>
     <h3>Sumaia Islam</h3>
-    <p class="person-role">Graduate Student</p>
+    <p class="person-role">M.S. Student</p>
     <p>Sumaia works on 3D reconstruction of target objects using UAVs and ground robots.</p>
   </div>
 </div>
