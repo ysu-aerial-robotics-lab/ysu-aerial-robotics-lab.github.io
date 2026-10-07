@@ -26,10 +26,6 @@ ground robots can sense, plan, and build together. Our current focus is **aerial
     <img src="{{ '/assets/img/aam/aerial-printing.webp' | relative_url }}" alt="A drone depositing material layer by layer to print a structure" loading="lazy">
     <figcaption>Aerial 3D printing: a drone deposits material layer by layer.</figcaption>
   </figure>
-  <figure>
-    <img src="{{ '/assets/img/aam/aerial-repair.webp' | relative_url }}" alt="A drone spraying repair material into a crack in a concrete wall" loading="lazy">
-    <figcaption>Aerial repair: a drone applies material to a crack in a concrete wall.</figcaption>
-  </figure>
 </div>
 
 ## Research Directions
@@ -87,7 +83,7 @@ Meet the team on the [people]({{ '/people/' | relative_url }}) page.
   }
   .aam-gallery {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     gap: 1rem;
     margin: 1.5rem 0;
   }
@@ -96,7 +92,7 @@ Meet the team on the [people]({{ '/people/' | relative_url }}) page.
   }
   .aam-gallery img {
     width: 100%;
-    aspect-ratio: 3 / 2;
+    aspect-ratio: 16 / 9;
     object-fit: cover;
     border-radius: 8px;
   }
