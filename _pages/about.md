@@ -18,11 +18,19 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-The PENGUIN Lab (Perception, Engineering & Navigation for Ground-UAV Intelligent Networks) at Youngstown State University studies how aerial and
-ground robots can sense, plan, and build together. Our current focus is **aerial additive manufacturing (AAM)**: using drones as flying 3D printers.
-
-<div class="aam-gallery">
-  <figure>
+<div class="hero">
+  <div class="hero-text">
+    <p>
+      The PENGUIN Lab (Perception, Engineering &amp; Navigation for Ground-UAV Intelligent Networks) at Youngstown State University studies how
+      aerial and ground robots can sense, plan, and build together.
+    </p>
+    <p>Our current focus is <strong>aerial additive manufacturing (AAM)</strong>: using drones as flying 3D printers.</p>
+    <p class="hero-links">
+      <a href="{{ '/people/' | relative_url }}">Meet the team →</a>
+      <a href="{{ '/competitions/' | relative_url }}">Join a competition team →</a>
+    </p>
+  </div>
+  <figure class="hero-figure">
     <img src="{{ '/assets/img/aam/aerial-printing.webp' | relative_url }}" alt="A drone depositing material layer by layer to print a structure" loading="lazy">
     <figcaption>Aerial 3D printing: a drone deposits material layer by layer.</figcaption>
   </figure>
@@ -47,8 +55,6 @@ ground robots can sense, plan, and build together. Our current focus is **aerial
     <p>Using UAVs and ground robots to capture the 3D geometry of target objects.</p>
   </div>
 </div>
-
-Meet the team on the [people]({{ '/people/' | relative_url }}) page.
 
 <style>
   .icon-cards {
@@ -81,29 +87,39 @@ Meet the team on the [people]({{ '/people/' | relative_url }}) page.
       grid-template-columns: 1fr;
     }
   }
-  .aam-gallery {
+  .hero {
     display: grid;
-    grid-template-columns: 1fr;
-    gap: 1rem;
-    margin: 1.5rem 0;
+    grid-template-columns: 1fr 42%;
+    gap: 2rem;
+    align-items: center;
+    margin-bottom: 1rem;
   }
-  .aam-gallery figure {
+  .hero-text p:last-child {
+    margin-bottom: 0;
+  }
+  .hero-links a {
+    display: inline-block;
+    margin-right: 1.25rem;
+    font-weight: 500;
+  }
+  .hero-figure {
     margin: 0;
   }
-  .aam-gallery img {
+  .hero-figure img {
     width: 100%;
-    aspect-ratio: 16 / 9;
+    aspect-ratio: 4 / 3;
     object-fit: cover;
     border-radius: 8px;
   }
-  .aam-gallery figcaption {
-    font-size: 0.85em;
+  .hero-figure figcaption {
+    font-size: 0.8em;
     color: var(--global-text-color-light);
     margin-top: 0.4rem;
   }
-  @media (max-width: 575px) {
-    .aam-gallery {
+  @media (max-width: 767px) {
+    .hero {
       grid-template-columns: 1fr;
+      gap: 1rem;
     }
   }
 </style>
