@@ -1,8 +1,8 @@
 ---
 layout: page
-title: projects
+title: Projects
 permalink: /projects/
-description: current and upcoming research projects
+description: Current and upcoming research projects
 nav: true
 nav_order: 8
 ---

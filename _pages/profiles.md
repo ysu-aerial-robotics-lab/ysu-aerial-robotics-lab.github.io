@@ -1,8 +1,8 @@
 ---
 layout: page
 permalink: /people/
-title: people
-description: members of the PENGUIN Lab
+title: People
+description: Members of the PENGUIN Lab
 nav: true
 nav_order: 7
 ---
