@@ -16,6 +16,7 @@ nav_order: 7
   <div>
     <h3>Dr. Zefeng Lyu</h3>
     <p class="person-role">Assistant Professor, Youngstown State University</p>
+    <p class="person-role"><a href="https://scholar.google.com/citations?user=-n8Ol7wAAAAJ" target="_blank" rel="noopener">Google Scholar</a></p>
     <p>
       Dr. Lyu received a Ph.D. in Industrial Engineering from the University of Tennessee, Knoxville (2023) and a B.S. in Industrial Engineering
       from Zhejiang University of Technology, and was a postdoctoral research associate at the University of Tennessee before joining YSU in 2024.
@@ -33,14 +34,15 @@ nav_order: 7
   <div>
     <h3>Dr. Yuqiu Ye</h3>
     <p class="person-role">Assistant Professor, Department of Civil, Environmental, and Chemical Engineering, Youngstown State University</p>
+    <p class="person-role"><a href="https://scholar.google.com/citations?user=azxMarcAAAAJ" target="_blank" rel="noopener">Google Scholar</a></p>
     <p>
       Dr. Ye received a Ph.D. (2024) and an M.Sc. in Civil Engineering from the University of Kansas, and an M.Sc. and a B.Sc. in Civil
       Engineering from Wuhan University of Technology, and was a research associate and lecturer at the University of Kansas before joining YSU in
       2025. Dr. Ye's research covers soil–structure interaction, ground improvement, computational geotechnics, remote sensors, and sustainable and
       resilient geomaterials, with publications in Géotechnique, the Journal of Geotechnical and Geoenvironmental Engineering, Geotextiles and
       Geomembranes, and Computers and Geotechnics. Honors include the YSU Research Professorship Award (2025) and a Best Paper Award Honorable
-      Mention from Geotextiles and Geomembranes (2023). Dr. Ye brings civil engineering and construction-materials expertise to the lab's aerial
-      additive manufacturing research.
+      Mention from Geotextiles and Geomembranes (2023). At YSU, Dr. Ye is developing aerial deposition materials for additive
+      construction in civil engineering.
     </p>
   </div>
 </div>
