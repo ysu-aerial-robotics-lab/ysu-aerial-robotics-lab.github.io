@@ -68,8 +68,6 @@ Want to learn more about Jekyll? Check out [this tutorial](https://www.taniarasc
     - [Writing](#writing)
     - [GitHub repositories and stats](#github-repositories-and-stats)
   - [User community](#user-community)
-    - [Desktop](#desktop)
-    - [Mobile](#mobile)
   - [FAQ](#faq)
   - [Contributing](#contributing)
     - [Code quality checks](#code-quality-checks)
