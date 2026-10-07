@@ -8,7 +8,7 @@ nav_order: 10
 ---
 
 <div class="join-box">
-  <h2>Join our competition teams</h2>
+  <h2><i class="fa-solid fa-user-plus" aria-hidden="true"></i> Join our competition teams</h2>
   <p>
     The PENGUIN Lab is recruiting students to form teams for uncrewed aircraft systems (UAS) competitions. Both undergraduate and graduate students
     are welcome. Team members work on autonomy software, flight control, computer vision, and building and testing aircraft.
@@ -23,6 +23,9 @@ nav_order: 10
 ## Competitions we are targeting
 
 <div class="comp-card">
+  <!-- To use the official logo, replace the <i> and <span> below with <img src="/assets/img/competitions/suas.png" alt="SUAS logo"> -->
+  <div class="comp-logo"><i class="fa-solid fa-plane" aria-hidden="true"></i><span>SUAS</span></div>
+  <div class="comp-body">
   <h3><a href="https://suas-competition.org/" target="_blank" rel="noopener">SUAS: Student Unmanned Aerial Systems Competition</a></h3>
   <p class="comp-meta">Hosted by RoboNation · held every year</p>
   <p>
@@ -31,9 +34,13 @@ nav_order: 10
     readiness review, then flies a simulated mission that is scored by the judges. The 2026 competition drew 85 registered teams, 64 of which,
     from 10 countries, qualified to fly at Skyway Range in Tulsa, Oklahoma.
   </p>
+  </div>
 </div>
 
 <div class="comp-card">
+  <!-- To use the official logo, replace the <i> and <span> below with <img src="/assets/img/competitions/iarc.png" alt="IARC logo"> -->
+  <div class="comp-logo"><i class="fa-solid fa-robot" aria-hidden="true"></i><span>IARC</span></div>
+  <div class="comp-body">
   <h3>
     <a href="http://www.aerialroboticscompetition.org/" target="_blank" rel="noopener">IARC: International Aerial Robotics Competition</a>
   </h3>
@@ -43,9 +50,13 @@ nav_order: 10
     before. Each mission stays open until a team completes it. The current Mission 10 addresses anti-personnel landmines: teams must use aerial
     robots to help a person cross a 100-meter minefield in under 10 minutes.
   </p>
+  </div>
 </div>
 
 <div class="comp-card">
+  <!-- To use the official logo, replace the <i> and <span> below with <img src="/assets/img/competitions/aigp.png" alt="AIGP logo"> -->
+  <div class="comp-logo"><i class="fa-solid fa-flag-checkered" aria-hidden="true"></i><span>AIGP</span></div>
+  <div class="comp-body">
   <h3><a href="https://theaigrandprix.com" target="_blank" rel="noopener">AI Grand Prix</a></h3>
   <p class="comp-meta">Launched by Anduril in 2026 · fully autonomous drone racing</p>
   <p>
@@ -54,6 +65,7 @@ nav_order: 10
     simulation, then advance to physical qualifiers. The inaugural championship race is held in Columbus, Ohio, in November 2026, with a $500,000
     prize pool and a job opportunity at Anduril. University and independent teams can enter.
   </p>
+  </div>
 </div>
 
 <style>
@@ -87,5 +99,44 @@ nav_order: 10
   }
   .comp-card p:last-child {
     margin-bottom: 0;
+  }
+  .comp-card {
+    display: flex;
+    gap: 1.25rem;
+    align-items: flex-start;
+  }
+  .comp-logo {
+    flex: 0 0 110px;
+    height: 110px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.4rem;
+    border-radius: 8px;
+    background-color: var(--global-bg-color);
+    border: 1px solid var(--global-divider-color);
+    color: var(--global-theme-color);
+  }
+  .comp-logo i {
+    font-size: 2.25rem;
+  }
+  .comp-logo span {
+    font-weight: 600;
+    letter-spacing: 0.05em;
+  }
+  .comp-logo img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+  }
+  .comp-body {
+    flex: 1;
+    min-width: 0;
+  }
+  @media (max-width: 575px) {
+    .comp-card {
+      flex-direction: column;
+    }
   }
 </style>

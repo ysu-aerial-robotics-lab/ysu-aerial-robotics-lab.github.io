@@ -32,15 +32,59 @@ ground robots can sense, plan, and build together. Our current focus is **aerial
   </figure>
 </div>
 
-Current research directions:
+## Research directions
 
-- **Flight control and stability**: keeping a UAV steady and precise enough to deposit material in flight.
-- **Multi-UAV task allocation and path planning**: coordinating a team of drones to print a structure efficiently.
-- **3D reconstruction**: using UAVs and ground robots to capture the 3D geometry of target objects.
+<div class="icon-cards">
+  <div class="icon-card">
+    <i class="fa-solid fa-gauge-high" aria-hidden="true"></i>
+    <h3>Flight control and stability</h3>
+    <p>Keeping a UAV steady and precise enough to deposit material in flight.</p>
+  </div>
+  <div class="icon-card">
+    <i class="fa-solid fa-route" aria-hidden="true"></i>
+    <h3>Multi-UAV task allocation and path planning</h3>
+    <p>Coordinating a team of drones to print a structure efficiently.</p>
+  </div>
+  <div class="icon-card">
+    <i class="fa-solid fa-cube" aria-hidden="true"></i>
+    <h3>3D reconstruction</h3>
+    <p>Using UAVs and ground robots to capture the 3D geometry of target objects.</p>
+  </div>
+</div>
 
 Meet the team on the [people]({{ '/people/' | relative_url }}) page.
 
 <style>
+  .icon-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    margin: 1rem 0 1.5rem;
+  }
+  .icon-card {
+    padding: 1.25rem;
+    border: 1px solid var(--global-divider-color);
+    border-radius: 8px;
+    background-color: var(--global-card-bg-color);
+  }
+  .icon-card i {
+    font-size: 1.75rem;
+    color: var(--global-theme-color);
+    margin-bottom: 0.75rem;
+  }
+  .icon-card h3 {
+    font-size: 1.1rem;
+    margin: 0 0 0.5rem;
+  }
+  .icon-card p {
+    margin: 0;
+    font-size: 0.95em;
+  }
+  @media (max-width: 767px) {
+    .icon-cards {
+      grid-template-columns: 1fr;
+    }
+  }
   .aam-gallery {
     display: grid;
     grid-template-columns: 1fr 1fr;
