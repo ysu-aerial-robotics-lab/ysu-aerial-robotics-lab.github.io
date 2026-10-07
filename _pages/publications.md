@@ -8,11 +8,18 @@ nav_order: 9
 ---
 
 <!-- _pages/publications.md -->
+<!-- The navbar tab stays "publications" (page title); the heading below replaces the default page header. -->
+
+<header class="post-header pub-header">
+  <h1 class="post-title">selected publications</h1>
+  <p class="post-description">publications related to the lab's research, in reverse chronological order.</p>
+</header>
+
+This is a selection of papers related to the lab's research, not a complete list of the co-directors' publications. For complete lists, see the
+Google Scholar profiles of [Dr. Zefeng Lyu](https://scholar.google.com/citations?user=-n8Ol7wAAAAJ) and
+[Dr. Yuqiu Ye](https://scholar.google.com/citations?user=azxMarcAAAAJ).
 
 <!-- Bibsearch Feature -->
-
-Selected publications related to the lab's research. For complete lists, see the Google Scholar profiles of
-[Dr. Zefeng Lyu](https://scholar.google.com/citations?user=-n8Ol7wAAAAJ) and [Dr. Yuqiu Ye](https://scholar.google.com/citations?user=azxMarcAAAAJ).
 
 {% include bib_search.liquid %}
 
@@ -23,6 +30,9 @@ Selected publications related to the lab's research. For complete lists, see the
 </div>
 
 <style>
+  .post > .post-header:not(.pub-header) {
+    display: none;
+  }
   .publications ol.bibliography li {
     border: 1px solid var(--global-divider-color);
     border-radius: 8px;
