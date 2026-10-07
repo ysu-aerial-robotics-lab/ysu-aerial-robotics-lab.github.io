@@ -68,7 +68,6 @@ Want to learn more about Jekyll? Check out [this tutorial](https://www.taniarasc
     - [Writing](#writing)
     - [GitHub repositories and stats](#github-repositories-and-stats)
   - [User community](#user-community)
-  - [Lighthouse PageSpeed Insights](#lighthouse-pagespeed-insights)
     - [Desktop](#desktop)
     - [Mobile](#mobile)
   - [FAQ](#faq)
@@ -248,20 +247,6 @@ Academics around the world use **al-folio** for their homepages, blogs, and lab 
 **[Browse the showcase &rarr;](docs/SHOWCASE.md)**
 
 Want your site listed? Post a request in the _Showcase_ category of [GitHub Discussions](https://github.com/alshedivat/al-folio/discussions) — we review and add entries periodically. Please do not open a pull request for this.
-
-## Lighthouse PageSpeed Insights
-
-### Desktop
-
-[![Google Lighthouse PageSpeed Insights](lighthouse_results/desktop/pagespeed.svg)](https://htmlpreview.github.io/?https://github.com/alshedivat/al-folio/blob/main/lighthouse_results/desktop/alshedivat_github_io_al_folio_.html)
-
-Run the test yourself: [Google Lighthouse PageSpeed Insights](https://pagespeed.web.dev/report?url=https%3A%2F%2Falshedivat.github.io%2Fal-folio%2F&form_factor=desktop)
-
-### Mobile
-
-[![Google Lighthouse PageSpeed Insights](lighthouse_results/mobile/pagespeed.svg)](https://htmlpreview.github.io/?https://github.com/alshedivat/al-folio/blob/main/lighthouse_results/mobile/alshedivat_github_io_al_folio_.html)
-
-Run the test yourself: [Google Lighthouse PageSpeed Insights](https://pagespeed.web.dev/report?url=https%3A%2F%2Falshedivat.github.io%2Fal-folio%2F&form_factor=mobile)
 
 ## FAQ
 
