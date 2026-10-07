@@ -4,7 +4,7 @@ permalink: /publications/
 title: publications
 description: selected publications by lab members, in reverse chronological order.
 nav: true
-nav_order: 8
+nav_order: 9
 ---
 
 <!-- _pages/publications.md -->
