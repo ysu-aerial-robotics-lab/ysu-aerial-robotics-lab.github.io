@@ -7,7 +7,25 @@ nav: true
 nav_order: 8
 ---
 
-Our projects are organized around the three pillars in the lab's name: **Perception**, **Engineering**, and **Navigation**.
+Our projects are organized around the three pillars in the lab's name.
+
+<div class="icon-cards">
+  <div class="icon-card">
+    <i class="fa-solid fa-eye" aria-hidden="true"></i>
+    <h3>Perception</h3>
+    <p>Sensing and understanding the environment from the air and the ground.</p>
+  </div>
+  <div class="icon-card">
+    <i class="fa-solid fa-gears" aria-hidden="true"></i>
+    <h3>Engineering</h3>
+    <p>Building aerial systems that can manufacture and repair structures.</p>
+  </div>
+  <div class="icon-card">
+    <i class="fa-solid fa-route" aria-hidden="true"></i>
+    <h3>Navigation</h3>
+    <p>Planning and controlling how UAVs and ground robots move.</p>
+  </div>
+</div>
 
 <div class="table-wrap">
 <table class="project-table">
@@ -22,31 +40,31 @@ Our projects are organized around the three pillars in the lab's name: **Percept
   <tbody>
     <tr>
       <td>UAV-Based Pavement &amp; Infrastructure Crack Detection</td>
-      <td>Perception</td>
+      <td class="pillar"><i class="fa-solid fa-eye" aria-hidden="true"></i> Perception</td>
       <td><span class="status active">Active</span></td>
       <td>Lyu</td>
     </tr>
     <tr>
       <td>Aerial Additive Manufacturing (Aerial 3D Printing)</td>
-      <td>Engineering</td>
+      <td class="pillar"><i class="fa-solid fa-gears" aria-hidden="true"></i> Engineering</td>
       <td><span class="status active">Active</span></td>
       <td>Lyu &amp; Ye</td>
     </tr>
     <tr>
       <td>UAV Delivery</td>
-      <td>Navigation</td>
+      <td class="pillar"><i class="fa-solid fa-route" aria-hidden="true"></i> Navigation</td>
       <td><span class="status active">Active</span></td>
       <td>Lyu</td>
     </tr>
     <tr>
       <td>UAV-Based Water Pollution Monitoring</td>
-      <td>Perception</td>
+      <td class="pillar"><i class="fa-solid fa-eye" aria-hidden="true"></i> Perception</td>
       <td><span class="status soon">Coming soon</span></td>
       <td>Ye</td>
     </tr>
     <tr>
       <td>UAV-Based Campus Traffic Safety Monitoring</td>
-      <td>Perception</td>
+      <td class="pillar"><i class="fa-solid fa-eye" aria-hidden="true"></i> Perception</td>
       <td><span class="status soon">Coming soon</span></td>
       <td>Ye</td>
     </tr>
@@ -55,6 +73,43 @@ Our projects are organized around the three pillars in the lab's name: **Percept
 </div>
 
 <style>
+  .icon-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    margin: 1rem 0 0.5rem;
+  }
+  .icon-card {
+    padding: 1.25rem;
+    border: 1px solid var(--global-divider-color);
+    border-radius: 8px;
+    background-color: var(--global-card-bg-color);
+  }
+  .icon-card i {
+    font-size: 1.75rem;
+    color: var(--global-theme-color);
+    margin-bottom: 0.75rem;
+  }
+  .icon-card h3 {
+    font-size: 1.1rem;
+    margin: 0 0 0.5rem;
+  }
+  .icon-card p {
+    margin: 0;
+    font-size: 0.95em;
+  }
+  .pillar {
+    white-space: nowrap;
+  }
+  .pillar i {
+    color: var(--global-theme-color);
+    width: 1.25em;
+  }
+  @media (max-width: 767px) {
+    .icon-cards {
+      grid-template-columns: 1fr;
+    }
+  }
   .table-wrap {
     overflow-x: auto;
     margin-top: 1.5rem;
