@@ -1,6 +1,6 @@
 ---
 layout: about
-title: About
+title: Home
 permalink: /
 subtitle: Perception, Engineering & Navigation for Ground-UAV Intelligent Networks
 
