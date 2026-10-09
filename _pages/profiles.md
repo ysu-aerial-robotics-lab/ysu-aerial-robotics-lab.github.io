@@ -88,8 +88,9 @@ nav_order: 7
   }
   .person img {
     width: 150px;
-    height: 150px;
+    height: 200px;
     object-fit: cover;
+    object-position: top;
     flex-shrink: 0;
   }
   .person h3 {
