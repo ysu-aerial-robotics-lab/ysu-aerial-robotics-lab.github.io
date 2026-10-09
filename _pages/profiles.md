@@ -75,15 +75,6 @@ nav_order: 7
   </div>
 </div>
 
-<div class="person">
-  <img src="{{ '/assets/img/people/placeholder.svg' | relative_url }}" alt="Sumaia Islam" class="z-depth-1 rounded">
-  <div>
-    <h3>Sumaia Islam</h3>
-    <p class="person-role">M.S. Student</p>
-    <p>Sumaia works on 3D reconstruction of target objects using UAVs and ground robots.</p>
-  </div>
-</div>
-
 <style>
   .person {
     display: flex;
