@@ -12,7 +12,7 @@ nav_order: 7
 ## Co-Directors
 
 <div class="person">
-  <img src="{{ '/assets/img/people/placeholder.svg' | relative_url }}" alt="Dr. Zefeng Lyu" class="z-depth-1 rounded">
+  <img src="{{ '/assets/img/people/zefeng-lyu.jpg' | relative_url }}" alt="Dr. Zefeng Lyu" class="z-depth-1 rounded">
   <div>
     <h3>Dr. Zefeng Lyu</h3>
     <p class="person-role">Assistant Professor, Youngstown State University</p>
