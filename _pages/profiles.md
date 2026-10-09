@@ -33,7 +33,7 @@ nav_order: 7
   <img src="{{ '/assets/img/people/placeholder.svg' | relative_url }}" alt="Dr. Yuqiu Ye" class="z-depth-1 rounded">
   <div>
     <h3>Dr. Yuqiu Ye</h3>
-    <p class="person-role">Assistant Professor, Department of Civil, Environmental, and Chemical Engineering, Youngstown State University</p>
+    <p class="person-role">Assistant Professor, Department of Civil, Environmental, and Chemical Engineering, Rayen School of Engineering, Youngstown State University</p>
     <p class="person-role"><a href="https://scholar.google.com/citations?user=azxMarcAAAAJ" target="_blank" rel="noopener">Google Scholar</a></p>
     <p>
       Dr. Ye received a Ph.D. (2024) and an M.Sc. in Civil Engineering from the University of Kansas, and an M.Sc. and a B.Sc. in Civil
