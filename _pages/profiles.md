@@ -15,7 +15,7 @@ nav_order: 7
   <img src="{{ '/assets/img/people/zefeng-lyu.jpg' | relative_url }}" alt="Dr. Zefeng Lyu" class="z-depth-1 rounded">
   <div>
     <h3>Dr. Zefeng Lyu</h3>
-    <p class="person-role">Assistant Professor, Youngstown State University</p>
+    <p class="person-role">Assistant Professor, Industrial and Systems Engineering, Rayen School of Engineering, Youngstown State University</p>
     <p class="person-role"><a href="https://scholar.google.com/citations?user=-n8Ol7wAAAAJ" target="_blank" rel="noopener">Google Scholar</a></p>
     <p>
       Dr. Lyu received a Ph.D. in Industrial Engineering from the University of Tennessee, Knoxville (2023) and a B.S. in Industrial Engineering
@@ -88,8 +88,9 @@ nav_order: 7
   }
   .person img {
     width: 150px;
-    height: 150px;
+    height: 200px;
     object-fit: cover;
+    object-position: top;
     flex-shrink: 0;
   }
   .person h3 {
